@@ -83,14 +83,13 @@ a {
     border-radius: 50%;
 }
 
-
-/* .enlaces a {
+.enlaces a {
     color: black;
     padding-top: 10rem;
     margin-left: 3rem;
     text-decoration: none;
     font-size: 2.8rem;
-} */
+}
 
 .enlaces {
     font-size: 2.5rem;
@@ -157,9 +156,9 @@ a {
 .art1 {
     width: 90rem;
     height: 90rem;
-    background-image: url(/img/art1.jpg);
-    background-size: 135rem;
-    background-position: right;
+    background-image: url(/img/3.jpg);
+    background-size: auto;
+    background-position: left;
     color: white;
     font-size: 15rem;
     text-align: center;

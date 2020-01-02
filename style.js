@@ -27,17 +27,30 @@ $(document).ready(function() {
         }
         console.log(desplazamientoActual);
 
-        //condiciones para el boton
+        //condiciones para que el boton se desplace hacia arriba y hacia abajo
         if (desplazamientoActual >= 880) {
-            //botonProy.fadeIn();
             botonProy.animate({ marginTop: 20 }, 1000);
-            console.log("soy un boton");
+            botonProy.fadeTo(800, 1);
         }
-        // if (desplazamientoActual < 1000) {
-        //     botonProy.stop().animate();
-        //     botonProy.stop().animate();
-        //     botonProy.animate({ marginTop: -35 });
-        // }
+        if (desplazamientoActual < 875) {
+            botonProy.stop().animate();
+            botonProy.stop().animate();
+            botonProy.animate({ marginTop: 300 });
+            botonProy.fadeTo(100, 0.1);
+        }
 
     });
+
+    //animaciones para las 3 fotos
+    // $(".foto1").mouseout(function() {
+    //     $("#p-foto1").fadeIn('slow');
+    // });
+
+    $(".foto1").mouseover(function() {
+        $("#p-foto1").fadeOut('slow');
+    });
+
+
+    $("#p-foto2")
+    $("#p-foto3")
 });

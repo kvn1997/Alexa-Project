@@ -60,7 +60,7 @@ a {
     background-color: rgb(3, 112, 112);
     color: orange;
     margin-left: 65rem;
-    margin-top: 25rem;
+    /* margin-top: 30rem; */
 }
 
 .description p {
@@ -154,25 +154,68 @@ a {
     border-radius: 0 0 0 1rem;
 }
 
-.articles {
+.fotos-enlaces {
     /* height: 4rem; */
     display: flex;
+    margin-left: 22rem;
+    margin-top: 10rem;
 }
 
-.art1 {
+
+/* .art1 {
     width: 20rem;
     height: 20rem;
     background-image: url(/img/3.jpg);
-    background-size: auto;
+    background-size: cover;
     background-position: left;
     color: white;
     font-size: 15rem;
     text-align: center;
     margin-top: 30rem;
     margin-left: 10rem;
+} */
+
+.foto1 {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-left: 5rem;
+    width: 30rem;
+    height: 20rem;
 }
 
-.art2 {
+.foto1:hover {
+    opacity: 0.8;
+}
+
+#p-foto1 {
+    color: white;
+    font-size: 5rem;
+    margin-left: 4rem;
+    padding-bottom: 5rem;
+}
+
+.foto2 {
+    background-image: url(/img/baby2.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-left: 5rem;
+    width: 30rem;
+    height: 20rem;
+}
+
+.foto3 {
+    background-image: url(/img/street\ photo.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-left: 5rem;
+    width: 30rem;
+    height: 20rem;
+}
+
+
+/* 
+.foto2 {
     width: 100%;
     height: 100%;
     background-image: url(/img/baby2.jpg);
@@ -185,7 +228,7 @@ a {
     margin-left: 10rem;
 }
 
-.art3 {
+.foto3 {
     width: 100%;
     height: 100%;
     background-image: url(/img/street\ photo.jpg);
@@ -198,7 +241,7 @@ a {
     margin-left: 10rem;
     text-align: end;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+} */
 
 footer {
     height: 30rem;
